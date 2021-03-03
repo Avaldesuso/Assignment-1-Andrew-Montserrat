@@ -12,6 +12,6 @@ function findMatches(wordToMatch, restaurants) {
 
 
         const regex = new RegExp(wordToMatch, 'gi');
-        return name.city.match(regex) || AnimationPlaybackEvent.state.match(regex)
-    })
+        return name.name.match(regex)
+    });
 }
