@@ -28,8 +28,8 @@ function displayMatches(){
 
         return
         <li>
-             <span class ="restaurant">${Rname.restaurants}</span>
-                <span class ="restaurantType">${Rname.addresssp}</span>
+             <span class ="restaurant">${Rname.restaurant}</span>
+            <span class ="restaurantType">${Rname.address}</span>
         </li>
         ;
     }).join('');
