@@ -18,9 +18,12 @@ function displayMatches() {
         const regex = new RegExp(this.value,'gi');
         return `
         <li>
-        <span class="name">${place.name}  </span>
-        <span class="category">${place.category} || </span>
-        <span class="city">${place.city}</span>
+        <span clas<li>
+        <span class="name">${place.name} </span>
+        <address>
+        <span class="address_line_1">${place.address_line_1}</span>
+        </address>
+        <span class="category">${place.category}</span>
         </li>
         `;
     }).join('');
@@ -33,6 +36,9 @@ function displayMatches() {
 
 const searchInput = document.querySelector('.text'); 
 const suggestions = document.querySelector('.suggestions');
+
+searchInput.addEventListener('change', displayMatches);
+searchInput.addEventListener('keyup', displayMatches);
 
 
 

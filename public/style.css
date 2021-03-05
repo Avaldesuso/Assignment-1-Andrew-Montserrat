@@ -74,4 +74,16 @@ body {
   span.restaurantName {
     font-size: 15px;
   }
+
+  .boxes li{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    padding: 5px;
+    margin-bottom: 15px;
+    /* margin-right: 23px; */
+    margin-left: 29px;
+    background: linear-gradient(rgb(255, 111, 145), rgb(132, 94, 194));
+    text-align: center;
+    width: 90%;
+  }
   
