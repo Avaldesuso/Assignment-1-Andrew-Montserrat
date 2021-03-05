@@ -1,5 +1,5 @@
 body {
-    background: rgba(140, 224, 235, 0.904);
+    background: rgba(60, 67, 68, 0.904);
     font-size: 12px;
     padding: 10px 0;
 } 
@@ -7,7 +7,7 @@ body {
  h1 {
     font-size: 24;
     text-align: justify;
-    color:rgb(255, 111, 145);
+    color:rgb(228, 153, 224);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,7 +51,7 @@ body {
     margin: 0;
     text-align: center;
     outline: 0;
-    border: 10px solid #46df5a;
+    border: 10px solid #e6c1f0;
     width: 80%;
     position: relative;
     top: 10px;
@@ -67,10 +67,10 @@ body {
   }
   
   .suggestions li {
-    background: rgb(219, 142, 142);
+    background: rgb(203, 190, 206);
     list-style: none;
     border-bottom: 1px solid #eb67e4;
-    box-shadow: 0 0 10px rgba(240, 9, 190, 0.911);
+    box-shadow: 0 0 10px rgba(231, 134, 210, 0.911);
     margin: 0;
     padding: 20px;
  
@@ -81,12 +81,12 @@ body {
   
   .suggestions li:nth-child(even) {
     transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
-    background: linear-gradient(to bottom,  #bb2a2a 0%,#2cbe9a 100%);
+    background: linear-gradient(to bottom,  #752abb 0%,#c360d6 100%);
   }
   
   .suggestions li:nth-child(odd) {
     transform: perspective(100px) rotateX(-3deg) translateY(3px);
-    background: linear-gradient(to top,  #61e281 0%,#EFEFEF 100%);
+    background: linear-gradient(to top,  #d877c3 0%,#b965c4 100%);
   }
   
   span.restaurantName {
@@ -94,7 +94,7 @@ body {
   }
 
   .boxes li{
-    color: rgb(178, 206, 53);
+    color: rgb(233, 94, 203);
     font-family: 'Roboto';
     padding: 5px;
     margin-bottom: 15px;
