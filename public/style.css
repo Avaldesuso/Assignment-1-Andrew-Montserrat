@@ -7,11 +7,23 @@ body {
  h1 {
     font-size: 24;
     text-align: justify;
+    color:rgb(255, 111, 145);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 4px;
+    padding: 8px;
+    font-family: "";
 }
   .container {
     width: 40%;
     max-width: 800px;
-    margin:initial
+    min-height: 100%;
+    margin: initial;
+    text-align: center;
+    justify-content: space-between;
   }
   
   *, *:before, *:after {
