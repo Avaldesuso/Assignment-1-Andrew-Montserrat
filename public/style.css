@@ -25,6 +25,12 @@ body {
     text-align: center;
     justify-content: space-between;
   }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
   *, *:before, *:after {
     box-sizing:border-box;
@@ -45,7 +51,7 @@ body {
     margin: 0;
     text-align: center;
     outline: 0;
-    border: 10px solid #F7F7F7;
+    border: 10px solid #46df5a;
     width: 80%;
     position: relative;
     top: 10px;
@@ -61,10 +67,10 @@ body {
   }
   
   .suggestions li {
-    background: white;
+    background: rgb(219, 142, 142);
     list-style: none;
-    border-bottom: 1px solid #D8D8D8;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    border-bottom: 1px solid #eb67e4;
+    box-shadow: 0 0 10px rgba(240, 9, 190, 0.911);
     margin: 0;
     padding: 20px;
  
@@ -75,12 +81,12 @@ body {
   
   .suggestions li:nth-child(even) {
     transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
-    background: linear-gradient(to bottom,  #ffffff 0%,#EFEFEF 100%);
+    background: linear-gradient(to bottom,  #bb2a2a 0%,#2cbe9a 100%);
   }
   
   .suggestions li:nth-child(odd) {
     transform: perspective(100px) rotateX(-3deg) translateY(3px);
-    background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
+    background: linear-gradient(to top,  #61e281 0%,#EFEFEF 100%);
   }
   
   span.restaurantName {
@@ -88,7 +94,7 @@ body {
   }
 
   .boxes li{
-    color: rgb(0, 0, 0);
+    color: rgb(178, 206, 53);
     font-family: 'Roboto';
     padding: 5px;
     margin-bottom: 15px;
